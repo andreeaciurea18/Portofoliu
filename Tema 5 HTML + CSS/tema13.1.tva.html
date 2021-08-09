@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>Show Alert/Confirm/Prompt</title>
+
+</head>
+
+<body>
+    <p><em> Acesta este un demo pentru a calcula TVA-ul unei valori introduse in prompt.</em>
+        <p>
+            <fieldset>
+
+                <legend>JavaScript Exemplu TVA</legend>
+
+                <input type="button" onclick="alert_box()" value="show alert box" />
+
+                <input type="button" onclick="confirm_box()" value="show confirm box" />
+
+                <input type="button" onclick="calcTVA()" value="show prompt box" />
+
+            </fieldset>
+
+</body>
+
+</html>
+
+<script language="javascript">
+    function calcTVA() {
+        var val = prompt("Te rog sa introduci o valoare", val);
+        let tva = 0.206;
+        let raspuns = Number(val) + Number(val * tva);
+        if (Number(val) != 0 || Number(val) != " ") {
+
+            document.write("Suma totala cu TVA este" + " " + raspuns + " " + "RON.");
+        } else {
+            document.write("TVA-ul nu poate fi calculat deoarece valoarea introdusa este 0 sau NULL!");
+        }
+    }
+
+    function alert_box() {
+        alert("This is an alert box!");
+    }
+
+    function confirm_box() {
+
+        var r = confirm("Press a button");
+
+        if (r == true) {
+
+            alert("That was OK");
+        } else {
+
+            alert("That was cancel");
+
+        }
+    }
+</script>
+
+<style>
+    body {
+        text-align: center;
+    }
+</style>

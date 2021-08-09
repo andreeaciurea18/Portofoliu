@@ -1,0 +1,120 @@
+.butoane {
+    padding-top: 300px;
+    padding: none;
+    /* sau padding:0; asa apropie sau sterge spatiul dintre 2 butoane/elemente*/
+    text-align: center;
+}
+
+.butoane ul li {
+    list-style: none;
+    display: inline-block;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.butoane li:nth-child(1) {
+    color: white;
+    border: 2px solid;
+    border-radius: 4px;
+    background-color: #4d4dff;
+    border-color: #4d4dff;
+    padding-top: 15px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+}
+
+.butoane li:nth-child(2) {
+    color: white;
+    border: 2px solid;
+    border-radius: 4px;
+    background-color: #808080;
+    border-color: #808080;
+    padding-top: 15px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+}
+
+.butoane li:nth-child(3) {
+    color: white;
+    border: 2px solid;
+    border-radius: 4px;
+    background-color: #00b33c;
+    border-color: #00b33c;
+    padding-top: 15px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+}
+
+.butoane li:nth-child(4) {
+    color: white;
+    border: 2px solid;
+    border-radius: 4px;
+    background-color: rgb(233, 21, 64);
+    border-color: rgb(233, 21, 64);
+    padding-top: 15px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+}
+
+.butoane li:nth-child(5) {
+    color: black;
+    border: 2px solid;
+    border-radius: 4px;
+    background-color: #ffcc00;
+    border-color: #ffcc00;
+    padding-top: 15px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+}
+
+.butoane li:nth-child(6) {
+    color: white;
+    border: 2px solid;
+    border-radius: 4px;
+    background-color: rgb(0, 169, 169);
+    border-color: rgb(0, 169, 169);
+    padding-top: 15px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+}
+
+.butoane li:nth-child(7) {
+    color: black;
+    border: 2px solid;
+    border-radius: 4px;
+    background-color: #f0f0f0;
+    border-color: #f0f0f0;
+    padding-top: 15px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+}
+
+.butoane li:nth-child(8) {
+    color: white;
+    border: 2px solid;
+    border-radius: 4px;
+    background-color: #333333;
+    border-color: #333333;
+    padding-top: 15px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+}
+
+.butoane li:nth-child(9) {
+    color: #006bb3;
+    border: 2px solid;
+    background-color: white;
+    border-color: white;
+    border-radius: 4px;
+    padding-top: 15px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+}

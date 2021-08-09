@@ -1,0 +1,21 @@
+<!-- Sa se verifice daca o litera este o consoana sau o vocala -->
+
+<script>
+    var input;
+    input = prompt("Introdu un caracter");
+    input = input.toUpperCase();
+
+    function esteVocala(x) {
+
+        var rezultat;
+
+        if (x == "A" || x == "E" || x == "I" || x == "O" || x == "U") {
+            rezultat = true;
+        } else {
+            rezultat = false;
+        }
+        return rezultat;
+    }
+
+    alert(esteVocala(input));
+</script>

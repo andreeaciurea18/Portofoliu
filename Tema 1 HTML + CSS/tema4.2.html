@@ -1,0 +1,82 @@
+<!-- Tema 2:
+Pentru fiecare camp din formular folositi pseudo clase, umbre si spatiere intre elementele formularului si borduri pentru evidentiere 
+(sa aplicam clase pentru fiecare element din formular, tema de data trecuta cu formular OLX).
+Umbre shadow effect
+ -->
+
+<!DOCTYPE html>
+
+<!-- Titlu pagina web -->
+
+<head>
+    <title>OLX ▪ Agaugare anunt</title>
+    <link rel="stylesheet" type="text/css" href="tema4.2.css">
+</head>
+
+<!-- Titlu continut pagina web -->
+<h1>Adaugare anunt</h1><br>
+
+<!-- Definirea formularului -->
+<form action="https://www.adaugare.anunturi.ro" method="post">
+
+    <!-- Titlu -->
+    <h3>Titlu</h3>
+    <label class="umbra" for="ftitlu">Titlu*</label><br>
+    <input type="text" id="ftitlu" name="ftitlu" onkeyup="validareInpuGol(this)" size="25" required maxlength="70"><br><br><br>
+
+    <!-- Categorie -->
+    <label class="umbra" for="fcategorie">Categorie*</label><br>
+    <select required>
+         <option value=""></option>
+           <option value="auto, moto, ambarcatiuni">Auto, Moto, Ambarcatiuni</option>
+           <option valuea="imobiliare">Imobiliare</option>
+           <option value="locuri de munca">Locuri de munca</option>
+           <option value="electronice si electrocasnice">Electronice si electrocasnice</option>
+           <option value="moda si frumusete">Moda si frumusete</option>
+           <option value="casa si gradina">Casa si gradina</option>
+           <option value="mama si copilul">Mama si copilul</option>
+           <option value="sport, timp liber, arta">Sport,timp liber, arta</option>
+           <option value="animale de companie">Animale de companie</option>
+           <option value="agro si industrie">Agro si industrie</option>
+           <option value="servicii, afaceri, echipamente firme">Servicii, afaceri, echipamente firme</option> 
+    </select><br><br><br>
+
+    <!-- Descriere -->
+    <h3>Descriere</h3>
+    <label class="umbra" for="fdescriere">Descriere*</label><br>
+    <input type="text" id="fdescriere" name="fdescriere" size="25" maxlength="9000" required><br><br><br>
+
+    <!-- Date de contact -->
+    <h3 class="umbra">Date de contact</h3>
+    <p>Vom retine datele tale pentru confortul tau. Le poti modifica in
+        <a href="https://www.olx.ro/">Setari</a>
+    </p><br>
+
+    <!-- Orasul sau localitatea -->
+    <label class="umbra" for="foras">Orasul sau localitatea*</label><br>
+    <input type="text" id="foras" name="foras" size="25" minlength="10" required><br><br><br>
+
+    <!-- Persoana -->
+    <label class="umbra" for="fpersoana">Persoana*</label><br>
+    <input type="text" id="fpersoana" name="fpersoana" size="25" required><br><br><br>
+
+    <!-- Adresa de email -->
+    <label class="umbra" for="fadresaemail">Adresa de email*</label><br>
+    <input type="email" id="fadresaemail" name="fadresaemail" value="andreeaciurea18@gmail.com" size="25" disabled required><br><br><br>
+
+    <!-- Numar de telefon -->
+    <label class="umbra" for="fnrtelefon">Numar de telefon</label><br>
+    <input type="integer" id="fnrtelefon" name="fnrtelefon" size="25" maxlength="10"><br><br><br>
+
+    <!-- Termeni si conditii -->
+    <input type="checkbox" id="facord" name="facord">
+    <label for="facord">Sunt de acord cu folosirea mijloacelor de comunicare electronica si a echipamentelor de telecomunicatii in 
+         scopul trimiterii de informatii de natura comerciala(de ex: buletine informative, mesaje sms) privind OLX Online Services S.R.L., 
+         afialiatii sau partenerii sai.</label><br><br><br>
+
+    <input type="submit" value="Submit">
+
+</form>
+
+
+</DOCTYPE>

@@ -1,0 +1,52 @@
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 100px;
+}
+
+form {
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 100px;
+}
+
+
+/* Link nevizitat */
+
+a:link {
+    color: blue;
+}
+
+
+/* Link vizitat */
+
+a:visited {
+    color: red;
+    text-decoration: red;
+}
+
+a:hover {
+    color: #00e600;
+}
+
+a:active {
+    color: #c44dff;
+}
+
+input:focus {
+    background-color: rgb(255, 255, 153);
+}
+
+.umbra {
+    color: #ff0080;
+    text-shadow: 2px 2px 4px #660033;
+    font-size: 17px;
+}
+
+input {
+    border-style: outset;
+    border-radius: 15px 45px 15px 45px;
+}
+
+select {
+    border-style: double;
+    border-radius: 15px 45px 15px 45px;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+
+<body>
+    <form id=" vatCalculator">
+        <fieldset>
+            <legend title="ammount">VAT Calculator</legend>
+            <label for="amount">Amount</label>
+            <input type="text" id="amount" name="amount" placeholder="£0.00 (before VAT)" value="" />
+            <!-- <label for="amount">VAT %</label>
+            <input type="text" id="vat" name="vat" placeholder="%0" value="" /> -->
+        </fieldset>
+        <input type="submit" value="Calculate VAT" />
+        <fieldset>
+            <legend>Result</legend>
+            <!-- The result needs to be output into the value below -->
+            <input type="text" id="result" name="result" placeholder="£0.00" value="" />
+        </fieldset>
+    </form>
+
+
+    <script>
+        function vatCalc(cost) {
+            let vat = 20.6;
+            return cost + (cost * vat / 100);
+            // (cost / 100) * (vat + 100);
+        }
+        //insert monetary value as vatCalc parameter because I don't know how to make it prompt for this yet.
+        // console.log("Yo brah. Shits gonna cost you £" + vatCalc(10) + ". Aww yiss. Mutha. Fuckin. Bargain.");
+        const formular = prompt(vatCalc(cost));
+        console.log(formular);
+    </script>
+
+</body>
+
+</html>
+
+<style>
+    body {
+        font-family: arial, helvertica, sans-serif;
+        font-size: .8em;
+    }
+    
+    fieldset {
+        padding: 20px;
+        clear: both;
+    }
+    
+    legend {
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    
+    label {
+        width: 80px;
+        float: left;
+        clear: left;
+    }
+    
+    input {
+        float: left;
+    }
+    
+    input[type="submit"] {
+        margin: 2em 0;
+    }
+</style>

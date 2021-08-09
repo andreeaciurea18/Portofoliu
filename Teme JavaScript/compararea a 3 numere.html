@@ -1,0 +1,64 @@
+<html>
+
+<title>Algoritm nrpar si nrimpar</title>
+
+<body>
+
+    <fieldset>
+        <legend>Sa se verifice care este cel mai mare si cel mai mic numar dintre 3 numere Numarul este dat de utilizator (prompt).</legend>
+        <!-- <label>Introdu nr. 1:</label>
+        <input type="text" id="text"></input><br><br>
+        <label>Introdu nr. 2:</label>
+        <input type="text" id="text"></input><br><br>
+        <label>Introdu nr. 3:</label> <input type="text" id="text"></input><br><br>
+        <button onclick="nr3Max()">Submit</button><br> -->
+
+        <input type="button" onclick="comparare3Nr()" value="show prompt box" />
+    </fieldset>
+</body>
+
+</html>
+
+<script language="javascript">
+    // program care verifica daca un numar este par sau impar
+    // ia inputul dat de utilizator
+    // function nr3Max(x, y, z) {
+    //     let max_value = 0;
+    //     if (x > y) {
+    //         max_value = x;
+    //         document.write("Cel mai mare numar este " + max_value + ".");
+    //     } else {
+    //         max_value = y;
+    //         document.write("Cel mai mare numar este " + max_value + ".");
+    //     }
+    //     if (z > max_value) {
+    //         max_value = z;
+    //         document.write("Cel mai mare numar este " + max_value + ".");
+    //     }
+    //     return max_value;
+    //     document.write("Cel mai mare numar este " + max_value + ".");
+    // }
+
+    function comparare3Nr() {
+        var input1 = parseInt(prompt("Introdu primul numar:"));
+        var input2 = parseInt(prompt("Introdu al doilea numar:"));
+        var input3 = parseInt(prompt("Introdu al treilea numar:"));
+
+        if ((input1 == input2) && (input1 == input3)) {
+            document.write("Toate numerele sunt egale!");
+        } else if ((input1 > input2) && (input1 > input3)) {
+            document.write(input1 + " este mai mare decat " + input2 + " si " + input3);
+        } else if ((input2 > input1) && (input2 > input3)) {
+            document.write(input2 + " este mai mare decat " + input1 + " si " + input3);
+        } else if ((input3 > input1) && (input3 > input2)) {
+            document.write(input3 + " este mai mare decat " + input1 + " si " + input2);
+        }
+    }
+</script>
+
+<style>
+    body {
+        margin-top: 50px;
+        text-align: center;
+    }
+</style>

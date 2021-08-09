@@ -1,0 +1,35 @@
+<html>
+
+<title>Algoritm nrpar si nrimpar</title>
+
+<body>
+
+    <fieldset>
+        <legend>Sa se verifice daca un numar este par sau impar si sa se afiseze in consola. Numarul este dat de utilizator (prompt).</legend>
+        <input type="button" onclick="nrParImpar()" value="show prompt box" />
+    </fieldset>
+</body>
+
+</html>
+
+<script language="javascript">
+    // program care verifica daca un numar este par sau impar
+    // ia inputul dat de utilizator
+    function nrParImpar() {
+        let number = prompt("Te rog sa introduci un numar: ");
+        if (number == '') {
+            document.write("Nu a fost introdus nici un numar, prin umare, nu se poate determina daca acesta este par sau impar!");
+        } else if (number % 2 == 0) {
+            document.write("Numarul introdus este par!");
+        } else {
+            document.write("Numarul introdus este impar!");
+        }
+    }
+</script>
+
+<style>
+    body {
+        margin-top: 50px;
+        text-align: center;
+    }
+</style>

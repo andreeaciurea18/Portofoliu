@@ -1,0 +1,19 @@
+<!-- Sa se scrie un script care calculeaza media a 3 note si sa se afiseze media si daca este peste 5 sau nu. -->
+
+<script>
+    var a = prompt("Introdu prima nota");
+    var b = prompt("Introdu a doua nota");
+    var c = prompt("Introdu cea de-a treia nota");
+
+    function medieNote(a, b, c) {
+        medie = ((Number(a) + Number(b) + Number(c)) / 3);
+
+        if (medie >= 5) {
+            console.log("Media celor 3 note este: " + medie + ". " + "Media este peste 5, ai trecut la aceasta materie!");
+        } else {
+            console.log("Media celor 3 note este: " + medie + ". " + "Media este mai mica decat 5, mai invata!");
+        }
+    }
+
+    medieNote(a, b, c);
+</script>

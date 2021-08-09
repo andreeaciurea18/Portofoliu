@@ -1,0 +1,45 @@
+<html>
+
+<head>
+    <title> Nr pozitiv sau negativ</title>
+</head>
+
+<body>
+
+    <fieldset>
+        <p>Sa se verifice daca un numar este pozitiv sau negativ!</p>
+        <input type="button" onclick="nrPozNeg()" value="Numar pozitiv sau negativ" />
+    </fieldset>
+
+</body>
+
+</html>
+
+<script language="javascript">
+    function nrPozNeg() {
+
+        const number = parseInt(prompt("Introdu un numar: "));
+
+        if (number >= 0) {
+            document.write("Numarul introdus este pozitiv!");
+        } else {
+            document.write("Numarul introdus este negativ!");
+        }
+    }
+</script>
+
+<style>
+    p {
+        margin-left: 40px;
+    }
+    
+    input {
+        margin-left: 120px;
+    }
+    
+    fieldset {
+        margin-top: 50px;
+        margin-right: 650px;
+        margin-left: 400px;
+    }
+</style>

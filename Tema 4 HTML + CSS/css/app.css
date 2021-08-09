@@ -1,0 +1,14 @@
+/* Import fisiere css */
+
+@import "mobile.css";
+@import "tablet.css";
+@import "web.css";
+#titlu {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+#continut {
+    text-align: justify;
+}

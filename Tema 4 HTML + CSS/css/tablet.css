@@ -1,0 +1,27 @@
+@media screen and (min-device-width:768px) and (max-device-width:1200px) {
+    body {
+        background-color: #cce6ff;
+    }
+    #titlu {
+        font-size: 35px;
+        font-weight: 400;
+        font-family: 'Bebas Neue', cursive;
+        color: #008000;
+        background-color: #66ff66;
+        box-shadow: 3px 5px 3px 5px #003300;
+    }
+    #continut {
+        font-size: 25px;
+        font-family: 'Bebas Neue', cursive;
+        color: green;
+        padding-top: 60px;
+        padding-right: 80px;
+        padding-left: 80px;
+    }
+    article img {
+        width: 740px;
+        height: 615px;
+        padding-top: 30px;
+        padding-left: 110px;
+    }
+}

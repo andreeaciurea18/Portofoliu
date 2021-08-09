@@ -1,0 +1,108 @@
+body {
+    background: #e6fff2;
+}
+
+.navigare {
+    background-color: #99e6ff;
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.navigare ul li {
+    display: inline-block;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    font-size: 18px;
+    /*line-height: 48px; --spatierea dintre randuri*/
+    /* vertical-align: middle; --proprietatea stabileste alinierea verticala a unui element*/
+    /* text-transform: uppercase;  --transforma scrisul in litere mari*/
+}
+
+.navigare li:nth-child(3) {
+    padding-right: 220px;
+}
+
+.banner {
+    padding-left: 250px;
+}
+
+.continutpag {
+    margin-left: 150px;
+    font-family: 'Noto Serif', serif;
+}
+
+.continutpag a {
+    text-decoration: inherit;
+}
+
+.continutpag h2 {
+    font-weight: bold;
+    line-height: 8px;
+}
+
+.continutpag span {
+    font-size: 10px;
+    font-weight: bold;
+    padding-right: 7px;
+}
+
+.continutpag p {
+    text-align: justify;
+    font-size: 15px;
+    margin-right: 800px;
+}
+
+.mesaj {
+    background-color: #99e6ff;
+    margin-right: 490px;
+    margin-left: 490px;
+    font-size: 15px;
+    font-family: 'Noto Serif', serif;
+}
+
+hr {
+    margin-right: 150px;
+    margin-left: 150px;
+}
+
+.butoane {
+    font-size: 18px;
+    font-family: 'Noto Serif', serif;
+    font-size: medium;
+    padding-left: 150px;
+    color: rgb(65, 62, 62);
+}
+
+.footer {
+    background-color: #00001a;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer ul li {
+    font-family: 'Hind Siliguri', sans-serif;
+    list-style: none;
+}
+
+.footer span {
+    display: inline-block;
+}
+
+.footer span:nth-child(1) {
+    padding-left: 105px;
+    line-height: 30px;
+}
+
+.footer span:nth-child(2) {
+    padding-left: 250px;
+    line-height: 30px;
+}
+
+.footer span:nth-child(3) {
+    padding-left: 200px;
+    line-height: 30px;
+}

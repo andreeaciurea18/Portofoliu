@@ -1,0 +1,38 @@
+<!-- Sortarea unui vector crescator -->
+<script>
+    // Varianta 1:
+    function sortCrescator(arr1) {
+        // manually sort array from smallest to largest:
+        // loop through array backwards:
+        for (let i = arr1.length - 1; i >= 0; i--) {
+            // loop again through the array, moving backwards:
+            for (let j = i; j >= 0; j--) {
+                if (arr1[i] < arr1[j]) {
+                    let temp = arr1[i];
+                    arr1[i] = arr1[j];
+                    arr1[j] = temp;
+                };
+            };
+        };
+        return arr1;
+    };
+    console.log(sortCrescator([12, -4, 104, 17, 26, -1, 7, 236, 56, 306, 42]));
+
+    // Varianta 2:
+    function micMare(numbers) {
+
+        let A_B = []
+        for (let i = 0; i < numbers.length; i++) {
+            for (let j = i; j < numbers.length; j++) {
+                if (numbers[i] > numbers[j]) {
+                    let temp = numbers[i];
+                    numbers[i] = numbers[j];
+                    numbers[j] = temp;
+                }
+            }
+            A_B.push(numbers[i])
+        }
+        return A_B
+    }
+    console.log(micMare([21, 12, 1, -4, 101, 31, 8]));
+</script>

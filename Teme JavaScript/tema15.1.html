@@ -1,0 +1,54 @@
+<!-- Creati o functie pentru a calcula aria unui triunghi, dreptunghi, patrat, romb; -->
+
+<script>
+    // Arie triunghi
+    const bazaTriunghi = prompt("Va rog sa introduceti baza triunghiului");
+    const inaltimeTriunghi = prompt("Va rog sa introduceti inaltimea triunghiului");
+
+    function arieTriunghi(bazaTriunghi, inaltimeTriunghi) {
+        arieTr = (bazaTriunghi * inaltimeTriunghi) / 2;
+        document.write("Aria triunghiului este " + arieTr + " .");
+        document.write("<br>");
+        document.write("<br>");
+    }
+
+    arieTriunghi(bazaTriunghi, inaltimeTriunghi);
+
+    //  Arie dreptunghi
+    const lungime = prompt("Va rog sa introduceti lungimea dreptunghiului");
+    const latime = prompt("Va rog sa introduceti latimea dreptunghiului");
+
+    function arieDreptunghi(lungime, latime) {
+        arieDrept = lungime * latime;
+        document.write("Aria dreptunghiului este " + arieDrept + " .");
+        document.write("<br>");
+        document.write("<br>");
+    }
+
+    arieDreptunghi(lungime, latime);
+
+    //Aria patratului
+    const latura = prompt("Va rog sa introduceti dimensiunea laturii patratului");
+
+    function ariePatrat(latura) {
+        ariePtr = Math.pow(latura, 2);
+        document.write("Aria patratului este " + ariePtr + " .");
+        document.write("<br>");
+        document.write("<br>");
+    }
+
+    ariePatrat(latura);
+
+    // Arie romb
+    const bazaRomb = prompt("Va rog sa introduceti baza rombului");
+    const inaltimeRomb = prompt("Va rog sa introduceti inaltimea rombului");
+
+    function arieRomb(bazaRomb, inaltimeRomb) {
+        arieRmb = bazaRomb * inaltimeRomb;
+        document.write("Aria triunghiului este " + arieRmb + " .");
+        document.write("<br>");
+        document.write("<br>");
+    }
+
+    arieRomb(bazaRomb, inaltimeRomb);
+</script>

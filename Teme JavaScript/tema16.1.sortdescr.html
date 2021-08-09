@@ -1,0 +1,39 @@
+<script>
+    //    Sortarea unui vector descrescator
+
+    // Varianta 1:
+    function sortDescrescator(arr2) {
+        // manually sort array from largest to smallest:
+        // loop forwards through array:
+        for (let i = 0; i < arr2.length; i++) {
+            for (let j = i; j < arr2.length; j++) {
+                if (arr2[i] < arr2[j]) {
+                    let temp = arr2[i];
+                    arr2[i] = arr2[j];
+                    arr2[j] = temp;
+                };
+            };
+        };
+        return arr2;
+    }
+
+    console.log(sortDescrescator([11, 987, 15, 67, -14, 0, 1203, 11, -3]));
+
+    // Varianta 2:
+    function mareMic(numbers) {
+
+        let B_A = []
+        for (let i = 0; i < numbers.length; i++) {
+            for (let j = i; j < numbers.length; j++) {
+                if (numbers[i] < numbers[j]) {
+                    let temp = numbers[i];
+                    numbers[i] = numbers[j];
+                    numbers[j] = temp;
+                }
+            }
+            B_A.push(numbers[i])
+        }
+        return B_A
+    }
+    console.log(mareMic([5, 43, -1, 9, 14, 71, 214, 11, 312]));
+</script>

@@ -1,0 +1,59 @@
+<!-- Tema 3 suplimentara: Folosind un eveniment de click cand dati click pe un paragraf face-ti-l sa dispara, iar la dublu click sa reapara. -->
+<!-- Versiunea 1 - apare dispare cu click si dublu click pe butoane separate -->
+
+<html>
+<BUTTON ONCLICK="Show()">Click me</BUTTON>
+<BUTTON ONDBLCLICK="Hide()">Double Click me</BUTTON>
+<DIV ID="SectionName" STYLE="display:none">Text to be shown and hidden</DIV>
+
+
+</html>
+
+<script>
+    function Show() {
+        var x = document.getElementById('SectionName');
+        if (x.style.display == 'none') {
+            x.style.display = 'block';
+        } else {
+            x.style.display = 'none';
+        }
+    }
+
+
+    function Hide() {
+        var x = document.getElementById('SectionName');
+        if (x.style.display == 'none') {
+            x.style.display = 'block';
+        } else {
+            x.style.display = 'none';
+        }
+    }
+</script>
+
+<!-- Versiunea 2: Apare paragraful prin click si dublu click, cu aceasta versiune nu dispare textul afisat. -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script>
+        function myFunctionClick() {
+            document.getElementById("demo").innerHTML = "Am dat un singur click pentru a aparea textul.";
+        }
+
+        function myFunctionDoubleClick() {
+            document.getElementById("demo").innerHTML = "Am dat dublu click pentru a aparea textul.";
+        }
+    </script>
+</head>
+
+<body>
+
+    <p onclick="myFunctionClick()">Click this paragraph to trigger a function.</p>
+
+    <p onclick="myFunctionDoubleClick()" STYLE="display:block">Doubleclick this paragraph to trigger a function.</p>
+
+    <p id="demo"></p>
+
+</body>
+
+</html>

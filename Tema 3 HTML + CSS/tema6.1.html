@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+
+<head>
+    <!-- Titlul paginii web -->
+    <title>Pagina web HTML5</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Roboto:wght@500&family=Ubuntu:wght@500&display=swap" rel="stylesheet" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Ubuntu:wght@500&display=swap" rel="stylesheet" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans:wght@700&family=Roboto+Condensed&family=Roboto:wght@500&family=Ubuntu:wght@500&display=swap" rel="stylesheet" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@600&family=Roboto+Slab:wght@500&family=Roboto:wght@700&family=Rubik:wght@500&family=Varela+Round&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- Main container -->
+    <div id="main-container">
+        <header id="header">
+            <!-- Logo -->
+            <section>LOGO</section>
+
+            <!-- Meniu navigare -->
+            <nav>
+                <ul>
+                    <li>PRODUCTS</li>
+                    <li>SHOPS</li>
+                    <li>BLOG</li>
+                    <li>✶ ✶ ✶ ✶ ✶</li>
+                    <li align="center">
+                        ✆
+                        <div>555 32 16 12</div>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <!--Sectiunea paginii web cu continutul   -->
+        <section id="main-body-container">
+            <p>ALL ABOUT OUR PRODUCTS Summary</p>
+            <article id="main-article">
+                <section>USE 1 FOR OUR PRODUCTS</section>
+                <section>Description</section>
+            </article>
+
+            <aside id="sidebar1">
+                <section>Client recommendations about the product</section>
+            </aside>
+
+            <aside id="sidebar2">
+                <section>About our industry</section>
+            </aside>
+
+            <article id="main-article">
+                <section>USE 2 FOR OUR PRODUCTS</section>
+                <section>Description</section>
+            </article>
+
+            <aside id="sidebar3">
+                <section>
+                    Summary of independent journalist evaluation of the product (LINK)
+                </section>
+            </aside>
+
+            <article id="main-article">
+                <section>USER 3 FOR OUR PRODUCTS</section>
+                <section>Description</section>
+            </article>
+        </section>
+
+        <!-- Subsolul paginii/footerul -->
+        <footer id="subsol">
+            <div id="informatii">
+                <nav>
+                    <ul>
+                        <li>JOBS</li>
+                        <li>CONTACT</li>
+                        <li>LEGAL</li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div id="butoane">
+                <nav>
+                    <section>FOLLOW US:</section>
+
+                    <section>
+                        <button>
+              <span class="twitter">
+                <i class="fab fa-twitter"></i>
+              </span>
+            </button>
+
+                        <button>
+              <span class="facebook">
+                <i class="fa fa-facebook-f"></i>
+              </span>
+            </button>
+
+                        <button>
+              <span class="gmail">
+                <i class="fa fa-google-plus"></i>
+              </span>
+            </button>
+                    </section>
+                </nav>
+
+                <section id="copyright">COPYRIGHT</section>
+            </div>
+        </footer>
+    </div>
+</body>
+<DOCTYPE>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        #main-container {
+            width: 100%;
+            margin: 0px auto;
+        }
+        
+        #header {
+            width: 100%;
+            background-color: white;
+            padding: 10px;
+            font-family: "Noto Sans", sans-serif;
+        }
+        
+        #header:after {
+            content: ".";
+            display: block;
+            height: 0;
+            clear: both;
+            visibility: hidden;
+        }
+        
+        #header section {
+            float: left;
+            width: 7%;
+            font-weight: bold;
+            color: white;
+            background-color: rgb(194, 160, 194);
+            font-size: 22px;
+            padding-top: 35px;
+            padding-left: 35px;
+            padding-bottom: 8.5px;
+        }
+        
+        #header nav {
+            width: 50%;
+            float: left;
+        }
+        
+        #header nav ul {
+            list-style: none;
+        }
+        
+        #header nav ul li {
+            float: left;
+            min-width: 15%;
+            text-align: center;
+            padding-right: 15px;
+            padding-left: 15px;
+            margin-left: 2px;
+            padding-bottom: 10px;
+        }
+        
+        #header nav ul li:nth-child(1) {
+            color: white;
+            background-color: rgb(171, 201, 212);
+            font-size: 15px;
+            padding-top: 43px;
+        }
+        
+        #header nav ul li:nth-child(2) {
+            color: white;
+            background-color: rgb(171, 201, 212);
+            font-size: 15px;
+            padding-top: 43px;
+        }
+        
+        #header nav ul li:nth-child(3) {
+            color: white;
+            background-color: rgb(171, 201, 212);
+            font-size: 15px;
+            padding-top: 43px;
+        }
+        
+        #header nav ul li:nth-child(4) {
+            color: white;
+            background-color: rgb(108, 170, 192);
+            font-size: 17px;
+            padding-top: 40px;
+        }
+        
+        #header nav ul li:nth-child(5) {
+            color: white;
+            background-color: rgb(108, 170, 192);
+            font-size: 13px;
+            padding-top: 27px;
+        }
+        
+        #main-body-container {
+            margin-top: -7px;
+            margin-right: 648px;
+            margin-bottom: -1px;
+            margin-left: 10px;
+            background-color: gold;
+            font-family: "Ubuntu", sans-serif;
+        }
+        
+        #main-body-container:after {
+            content: ".";
+            display: block;
+            height: 0;
+            clear: both;
+            visibility: hidden;
+        }
+        
+        #main-body-container p {
+            float: left;
+            color: white;
+            width: 60%;
+            font-size: 14px;
+            font-weight: 500;
+            margin-bottom: 15px;
+            padding-top: 35px;
+            padding-left: 20px;
+            padding-bottom: 30px;
+            background-color: orange;
+        }
+        
+        #main-article {
+            float: left;
+            color: white;
+            width: 60%;
+            font-size: 13px;
+            margin-bottom: 15px;
+            padding-top: 20px;
+            padding-left: 20px;
+            padding-bottom: 30px;
+            background-color: orange;
+        }
+        
+        #sidebar1 {
+            float: right;
+            width: 19%;
+            min-height: 20px;
+            font-size: 12px;
+            color: white;
+            background-color: gold;
+            padding-right: 145px;
+        }
+        
+        #sidebar2 {
+            float: right;
+            width: 5%;
+            font-size: 12px;
+            color: white;
+            background-color: gold;
+            padding-top: -15px;
+            padding-right: 70px;
+        }
+        
+        #sidebar3 {
+            float: right;
+            width: 13%;
+            font-size: 12px;
+            min-height: 20px;
+            color: white;
+            background-color: gold;
+            padding-right: 165px;
+        }
+        
+        #subsol {
+            width: 57.3%;
+            background-color: rgb(61, 180, 61);
+            color: white;
+            margin-top: 5px;
+            margin-left: 10px;
+            font-family: "Roboto", sans-serif;
+        }
+        
+        #subsol:after {
+            content: ".";
+            display: block;
+            height: 0;
+            clear: both;
+            visibility: hidden;
+        }
+        
+        #subsol nav {
+            float: left;
+            margin-right: 190px;
+        }
+        
+        #subsol nav ul {
+            list-style: none;
+            box-shadow: 5px 10px red;
+        }
+        
+        #subsol nav ul li {
+            float: left;
+            text-align: center;
+            color: white;
+            padding-top: 15px;
+            padding-right: 15px;
+            padding-bottom: 15px;
+            padding-left: 10px;
+            margin-left: 2px;
+            background-color: rgb(48, 136, 48);
+            margin: 0;
+        }
+        
+        #subsol nav ul li:nth-child(1) {
+            padding-left: 10px;
+            margin-left: 105px;
+        }
+        
+        #subsol section {
+            float: left;
+            min-width: 10%;
+            padding-left: 10px;
+        }
+        
+        button {
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+        
+        #butoane nav {
+            background-color: rgb(48, 136, 48);
+            margin: 0;
+            padding-top: 0px;
+            padding-right: 5px;
+            padding-bottom: 12px;
+            padding-left: 10px;
+            margin-left: 2px;
+        }
+        
+        #butoane section {
+            padding-top: 15px;
+            padding-right: 15px;
+        }
+        
+        #butoane nav section {
+            padding-top: 15px;
+            padding-left: 5px;
+        }
+    </style>
+</DOCTYPE>

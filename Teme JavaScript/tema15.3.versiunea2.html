@@ -1,0 +1,44 @@
+<script>
+    const celsius = prompt('Introduceti temperatura in Celsius');
+    const fahrenheit = prompt('Introduceti temperatura in Fahrenheit');
+    const kelvin = prompt('Introduceti temperatura in Kelvin');
+
+    //  Convertire in grade din Celsius in Fahrenheit si Kelvin
+    let fahrenheitCelsius = (celsius * 1.8 + 32);
+    let kelvinCelsius = Number(celsius) + 273.15;
+
+    // Convertire in grade din Fahrenheit in Celsius si Kelvin
+    let celsiusFahrenheit = (fahrenheit - 32) / 1.8;
+    let kelvinFahrenheit = ((fahrenheit - 32) / 1.8) + 273.15;
+
+    // Convertire in grade din Kelvin in Fahrenheit si Celsius
+    let fahrenheitKelvin = ((kelvin - 273.15) * 1.8) + 32;
+    let celsiusKelvin = (kelvin - 273.15);
+
+
+
+    // Displaying the temperature using string interpolation
+    document.write("<br>");
+    document.write("<br>");
+    document.write(`${celsius} grade Celsius reprezinta ${fahrenheitCelsius.toFixed(2)} grade Fahrenheit.`);
+    document.write("<br>");
+    document.write("<br>");
+    document.write("<br>");
+    document.write(`${celsius} grade Celsius reprezinta ${kelvinCelsius.toFixed(2)} grade Kelvin.`);
+    document.write("<br>");
+    document.write("<br>");
+    document.write("<br>");
+    document.write(`${fahrenheit} grade Fahrenheit reprezinta ${celsiusFahrenheit.toFixed(2)} grade Celsius.`);
+    document.write("<br>");
+    document.write("<br>");
+    document.write("<br>");
+    document.write(`${fahrenheit} grade Fahrenheit reprezinta ${kelvinFahrenheit.toFixed(2)} grade Kelvin.`);
+    document.write("<br>");
+    document.write("<br>");
+    document.write("<br>");
+    document.write(`${kelvin} grade Kelvin reprezinta ${fahrenheitKelvin.toFixed(2)} grade Fahrenheit.`);
+    document.write("<br>");
+    document.write("<br>");
+    document.write("<br>");
+    document.write(`${kelvin} grade Kelvin reprezinta ${celsiusKelvin.toFixed(2)} grade Celsius.`);
+</script>

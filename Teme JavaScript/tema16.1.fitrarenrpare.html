@@ -1,0 +1,17 @@
+<!-- Filtrarea unui vector pentru numere pare -->
+<script>
+    var vector = [14, -3, 41, 4, 12, 54, 63, 87, 90, 102, 302, 506, 809];
+
+    function nrPare(a) {
+        var vectorNou = [];
+        for (var i = 0; i < a.length; i++) {
+            if (a[i] % 2 === 0) {
+                vectorNou.push(a[i]);
+            }
+        }
+        return vectorNou;
+    }
+    document.write("Vector cu valori initiale: " + vector + ".");
+    document.write("<br>");
+    document.write("Vector final cu valorile pare extrase din vectorul initial: " + nrPare(vector) + ".");
+</script>

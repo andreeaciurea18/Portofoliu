@@ -1,0 +1,107 @@
+<html>
+
+<head>
+    <title>Joc</title>
+</head>
+
+<body>
+
+    <form NAME="myform" ACTION="" METHOD="GET">
+
+        <br><br>Introdu valori in casutele de mai jos pentru puteri de viata si puncte de atac:<br><br><br>
+
+        <label class="1apctviata" for="apctviata">Puncte de viata Aurora*</label><br>
+        <INPUT TYPE="integer" id="apctviata" name="apctviata" size="25" maxlength="9000" required><br>
+        <label class="1attack" for="aattack">Puncte de atac Aurora*</label><br>
+        <INPUT TYPE="integer" id="aattack" name="aattack" size="25" maxlength="9000" required><br><br>
+
+        <label class="2gpctviata" for="gpctviata">Puncte de viata Glacius*</label><br>
+        <INPUT TYPE="integer" id="gpctviata" name="gpctviata" size="25" maxlength="9000" required><br>
+        <label class="2attack" for="gattack">Puncte de atac Glacius*</label><br>
+        <INPUT TYPE="integer" id="gattack" name="gattack" size="25" maxlength="9000" required><br><br>
+
+
+        <label class="3spctviata" for="spctviata">Puncte de viata Spike*</label><br>
+        <INPUT TYPE="integer" id="spctviata" name="spctviata" size="25" maxlength="9000" required><br>
+        <label class="3attack" for="sattack">Puncte de atac Spike*</label><br>
+        <INPUT TYPE="integer" id="sattack" name="sattack" size="25" maxlength="9000" required><br><br>
+
+        <input type="button" onclick="myFunction()" value="Submit"><br><br>
+
+    </form>
+
+
+</body>
+
+</html>
+
+<script>
+    function myFunction() {
+
+        class Character {
+            constructor(name, health, strength) {
+                this.name = name;
+                this.health = health;
+                this.strength = strength;
+                this.xp = 0; //punctele XP vor fi intodeuna 0 pentru un nou caracter
+            }
+
+            // Ataca o tinta
+            attack(target) {
+                    if (this.health > 0) {
+                        const damage = this.strength;
+                        document.write(`${this.name} il ataca pe ${target.name} si actioneaza cu ${damage} puncte de atac. <br><br>`);
+                        target.health -= damage;
+                        if (target.health > 0) {
+                            document.write(`${target.name} a ramas cu ${target.health} puncte de viata.<br><br>`);
+                        } else {
+                            target.health = 0;
+                            const bonusXP = 10;
+                            document.write(`${this.name} l-a eliminat pe ${target.name} si a castigat ${bonusXP} puncte de experienta. <br><br>`);
+                            this.xp += bonusXP;
+                        }
+                    } else {
+                        document.write(`${this.name} nu mai poate ataca deoarece a fost eliminat. <br><br>`);
+                    }
+                }
+                // returneaza descrierea caracterului
+            describe() {
+                return `${this.name} are ${this.health} puncte de viata, ${this.strength} puteri si ${this.xp} puncte XP (experienta). <br><br>`;
+            }
+
+        }
+
+        //Acum vom putea
+        a = document.getElementById("apctviata").value;
+        b = document.getElementById("aattack").value;
+        c = document.getElementById("gpctviata").value;
+        d = document.getElementById("gattack").value;
+        e = document.getElementById("spctviata").value;
+        f = document.getElementById("sattack").value;
+
+
+        const aurora = new Character("Aurora", a, b);
+        const glacius = new Character("Glacius", c, d);
+        document.write("Bine ati venit in aventura noastra, numele eroilor nostrii sunt :" + "<br><br>");
+        document.write(aurora.describe());
+        document.write(glacius.describe());
+
+        const monster = new Character("Spike", e, f);
+        document.write("O bestie salbatica a inceput sa atace, numele sau este: " + monster.name + ". <br><br>");
+
+        monster.attack(aurora);
+        monster.attack(glacius);
+        aurora.attack(monster);
+        glacius.attack(monster);
+
+        document.write(aurora.describe());
+        document.write(glacius.describe());
+        document.write(monster.describe());
+    }
+</script>
+
+<style>
+    form {
+        text-align: center;
+    }
+</style>

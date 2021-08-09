@@ -1,0 +1,77 @@
+<!-- Sa se scrie un program in care se introduce luna si sa se afiseze in consola. (se verifica fiecare luna in parte ca si in exemplul de mai sus ) -->
+
+<script>
+    var luna = prompt("Te rog sa introduci o luna din an:");
+
+    var lunaIntrodusa = "";
+    switch (luna) {
+        case "Ianuarie":
+            lunaIntrodusa = "Ianuarie";
+            console.log("Suntem in luna Ianuarie!");
+            break;
+        case "Februarie":
+            lunaIntrodusa = "Februarie";
+            console.log("Suntem in luna Februarie!");
+            break;
+        case "Martie":
+            lunaIntrodusa = "Martie";
+            console.log("Suntem in luna Martie!");;
+            break;
+        case "Aprilie":
+            lunaIntrodusa = "Aprilie";
+            console.log("Suntem in luna Aprilie!");
+            break;
+        case "Mai":
+            lunaIntrodusa = "Mai";
+            console.log("Suntem in luna Mai!");
+            break;
+        case "Iunie":
+            lunaIntrodusa = "Iunie";
+            console.log("Suntem in luna Iunie!");
+            break;
+        case "Iulie":
+            lunaIntrodusa = "Iulie";
+            console.log("Suntem in luna Iulie!");
+            break;
+        case "August":
+            lunaIntrodusa = "August";
+            console.log("Suntem in luna August!");
+            break;
+        case "Septembrie":
+            lunaIntrodusa = "Septembrie";
+            console.log("Suntem in luna Septembrie!");
+            break;
+        case "Octombrie":
+            lunaIntrodusa = "Octombrie";
+            console.log("Suntem in luna Octombrie!");
+            break;
+        case "Noiembrie":
+            lunaIntrodusa = "Noiembrie";
+            console.log("Suntem in luna Noiembrie!");
+            break;
+        case "Decembrie":
+            lunaIntrodusa = "Decembrie";
+            console.log("Suntem in luna Decembrie!");
+            break;
+
+    }
+
+    if ((luna == "Decembrie") || (luna == "Ianuarie") || (luna == "Februarie")) {
+        console.log("Luna " + luna + " face parte din anotimpul iarna!");
+    }
+
+
+    if ((luna == "Martie") || (luna == "Aprilie") || (luna == "Mai")) {
+        console.log("Luna " + luna + " face parte din anotimpul primavara!");
+    }
+
+
+    if ((luna == "Iunie") || (luna == "Iulie") || (luna == "August")) {
+        console.log("Luna " + luna + " face parte din anotimpul vara!");
+    }
+
+
+    if ((luna == "Septembrie") || (luna == "Octombrie") || (luna == "Noiembrie")) {
+        console.log("Luna " + luna + " face parte din anotimpul toamna!");
+    }
+</script>

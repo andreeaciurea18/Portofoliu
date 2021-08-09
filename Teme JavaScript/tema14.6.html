@@ -1,0 +1,20 @@
+<!-- Sa se verifica daca un caracter este scris cu litera mare sau mica -->
+<script>
+    var caracter = prompt("Te rog sa introduci un caracter");
+
+    function isLowerUpperCase(caracter) {
+        if (!isNaN(caracter * 1)) {
+            console.log("Caracterul introdus este numeric!");
+        } else {
+            if (caracter == caracter.toLowerCase()) {
+                console.log("Caracterul introdus este scris cu litera mica si acesta este " + caracter + ".");
+            }
+            if (caracter == caracter.toUpperCase()) {
+                console.log("Caracterul introdus este scris cu litera mare si acesta este " + caracter + ".");
+            }
+
+        }
+    }
+
+    isLowerUpperCase(caracter);
+</script>

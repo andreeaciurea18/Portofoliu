@@ -1,0 +1,29 @@
+<!-- Sa se creeze un calculator simplu folosind switch (adunare,scadere,impartire,inmultire, restul impartirii)-->
+
+<script>
+    var a = prompt("Introdu un numar");
+    var b = prompt("Introdu un numar");
+
+    function calculator(a, b, operatie) {
+        switch (operatie) {
+            case '+':
+                return +a + +b;
+                console.log()
+            case '-':
+                return +a - +b;
+            case '*':
+                return +a * +b;
+            case '/':
+                return +a / +b;
+            case '%':
+                return +a % +b;
+            default:
+                return 0;
+        }
+    }
+    console.log(calculator(a, b, '+'));
+    console.log(calculator(a, b, '-'));
+    console.log(calculator(a, b, '*'));
+    console.log(calculator(a, b, '/'));
+    console.log(calculator(a, b, '%'));
+</script>

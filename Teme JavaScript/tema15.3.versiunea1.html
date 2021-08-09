@@ -1,0 +1,63 @@
+<!-- Creati o functie pentru a transforma gradele din Celsius in Farenheit si in Kelvin dar si invers. -->
+
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <h2>Program de conversie grade Celsius in Fahrenheit si invers</h2>
+
+    <p>Introduceti un numar in una din casutele de mai jos:</p>
+
+    <p><input id="c" onkeyup="convert('C')"> grade Celsius</p>
+
+    <p><input id="f" onkeyup="convert('F')"> grade Fahrenheit</p>
+
+
+    <p><input id="k" onkeyup="convert('K')"> grade Kelvin</p>
+
+    <p>Am folosit functia <b>Math.round()</b> pentru a returna gradele ca numar intreg, fara virgula.</p>
+
+    <script>
+        function convert(degree) {
+            var x, y;
+
+            if (degree == "C") {
+                x = document.getElementById("c").value * 9 / 5 + 32;
+                y = Number(document.getElementById("c").value) + 273.15;
+
+
+                document.getElementById("f").value = x.toFixed(2);
+                document.getElementById("k").value = y.toFixed(2);
+
+
+            } else if (degree == "F") {
+                x = (document.getElementById("f").value - 32) * 5 / 9;
+                y = Number(((document.getElementById("f").value - 32) * 5 / 9)) + 273.15;
+
+
+                document.getElementById("c").value = x.toFixed(2);
+                document.getElementById("k").value = y.toFixed(2);
+
+
+            } else {
+                x = document.getElementById("k").value - 273.15;
+                y = Number(((document.getElementById("k").value - 273.15) * 9 / 5)) + 32;
+
+
+                document.getElementById("c").value = x.toFixed(2);
+                document.getElementById("f").value = y.toFixed(2);
+
+            }
+        }
+    </script>
+
+</body>
+
+</html>
+
+<style>
+    body {
+        margin: 5%;
+    }
+</style>
