@@ -1,0 +1,45 @@
+.btn-success {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 150px;
+}
+
+.navbar {
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border: 2px solid rgb(228, 225, 225);
+    border-radius: 6px;
+}
+
+.form-control {
+    border: 2px solid rgb(228, 225, 225);
+    border-radius: 6px;
+}
+
+.navbar-brand {
+    margin-left: 20px;
+    margin-right: 40px;
+}
+
+.nav-link {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.search {
+    margin-left: 50px;
+    padding-right: 90px;
+    color: rgb(228, 225, 225);
+}
+
+.submit {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.link3 {
+    margin-left: 200px;
+    margin-right: 20px;
+}
+

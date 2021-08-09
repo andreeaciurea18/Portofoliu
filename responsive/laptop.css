@@ -1,0 +1,178 @@
+@media screen and (min-device-width:993px) and (max-device-width:1500px) {
+    .text-hotel {
+        padding-top: 90px;
+    }
+    .text-hotel h1 {
+        font-size: 2.4em;
+    }
+    .text-hotel p {
+        font-size: 15px;
+        text-align: justify;
+    }
+    .row .button-prev-next {
+        margin-left: 2.1rem!important;
+    }
+    .navbar-brand {
+        padding-right: 3px;
+    }
+    #navbarNavDropdown ul li a.nav-link {
+        padding-left: 4px;
+        font-size: 0.9rem;
+    }
+    .row .grid-left-trust,
+    .row .grid-left-testimonials,
+    .row .restaurant-text,
+    .row .blog-text,
+    .row .card-blog,
+    .row .photos-text,
+    .row .contact-text {
+        flex: 0 0 82%;
+        max-width: 82%;
+    }
+    .row .grid-left-trust h1,
+    .row .grid-left-testimonials h1,
+    .row .restaurant-text h1,
+    .row .blog-text h1,
+    .row .photos-text h1,
+    .row .grid-left-testimonials p,
+    .row .grid-restaurant-text h1,
+    .row .contact-text h1 {
+        text-align: center;
+    }
+    .row .grid-right-images {
+        padding-top: 6%;
+        padding-left: 15%;
+    }
+    .row .grid-right-images .clsimg1,
+    .row .grid-restaurant-text {
+        flex: 0 0 64%;
+        max-width: 64%;
+    }
+    .row .grid-right-images .clsimg2 {
+        flex: 0 0 128%;
+        max-width: 128%;
+    }
+    .carousel-text h1 {
+        font-size: 2.5em;
+    }
+    .first-card {
+        margin-left: 14%;
+    }
+    .carousel-item .card {
+        margin-right: 1.5%;
+    }
+    .card span {
+        font-size: 13px;
+    }
+    .cartonase p {
+        font-size: 10px;
+        padding: 5px 5px;
+    }
+    rotunjit {
+        border-radius: 40px;
+        margin: 1px 13px;
+    }
+    .testimonials-image img {
+        margin-left: 39%;
+    }
+
+    .row .grid-left-testimonials p {
+        flex: 0 0 97%;
+        max-width: 97%;
+    }
+
+    #main-wrapper {
+        padding-bottom: 15rem!important;
+    }
+    .card-restaurant .button-prev-next {
+        padding-left: 104%;
+    }
+    .card-restaurant .card {
+        margin-left: 4.5rem!important;
+    }
+    .card-blog .card {
+        margin-right: 0.5rem!important;
+        margin-left: 1.4rem!important;
+        max-width: 28%;
+    }
+    .photos .d-none {
+        width: 100%;
+    }
+    .slide-box img {
+        -ms-flex: 0 0 25%;
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+    .footer-links,
+    .footer-col-links h6 {
+        padding-left: 100px;
+    }
+    .footer-privacy,
+    .footer-col-privacy h6 {
+        padding-left: 30px;
+    }
+    .copyright .link {
+        margin-left: -3rem!important;
+    }
+    /* Stilizare IndexRooms.html */
+    .check-date-rooms .col-2 {
+        flex: 0 0 18.666667%;
+        max-width: 18.666667%;
+
+    }
+    .check-date-rooms .btn-info {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    /* Stilizare IndexRestaurant.html */
+    .row .grid-restaurant-images {
+        padding-left: 22%;
+    }
+    .row .grid-restaurant-text {
+        margin-left: 10%;
+    }
+    .row .grid-restaurant-text {
+        margin-left: 18%;
+    }
+    /* Stilizare IndexContact.html */
+    .panel-contact {
+        -ms-flex: 0 0 27.3333%;
+        flex: 0 0 27.3333%;
+        max-width: 27.3333%;
+    }
+    .icon-contact {
+        margin-left: 25%;
+    }
+    .heading1 {
+        margin-right: 10rem!important;
+    }
+    .heading2 {
+        margin-right: 10rem!important;
+        margin-left: 0.4rem!important;
+    }
+    .heading3 {
+        margin-left: -3rem!important;
+        margin-right: 10rem!important;
+    }
+    .heading4 {
+        margin-left: -4rem!important;
+        margin-right: 10rem!important;
+    }
+    .head1 {
+        margin-left: -6rem!important;
+        margin-right: 8.5rem!important;
+    }
+    /* DailyCaloriesCalculator */
+    .part1 h3,
+    .part1 h4,
+    .part2 h4 {
+        padding-left: 350px;
+    }
+    .calculatorWoman {
+        padding-left: 300px;
+    }
+    .calculatorMan {
+        padding-top: 50px;
+        padding-left: 300px;
+    }
+}

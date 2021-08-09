@@ -1,0 +1,6 @@
+/* Import fisiere css */
+
+@import "mobile.css";
+@import "tablet.css";
+@import "laptop.css";
+@import "web.css";

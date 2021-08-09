@@ -1,0 +1,852 @@
+/* Stilizare pentru Index.html */
+
+body {
+    background: white;
+}
+
+.row .bg-img1 {
+    background-image: url(image1.png);
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.navbar-brand {
+    color: white;
+    font-family: 'Popins';
+    font-weight: 700;
+    padding-left: 80px;
+    padding-right: 170px;
+}
+
+#navbarNavDropdown ul li a.nav-link {
+    color: white;
+    font-family: 'Popins';
+    font-weight: 700;
+    padding-left: 50px;
+}
+
+.text-hotel {
+    padding-top: 120px;
+}
+
+.text-hotel h1 {
+    font-family: 'Popins';
+    color: white;
+    font-size: 4em;
+    font-weight: 700;
+    padding-left: 170px;
+}
+
+.text-hotel p {
+    font-family: 'Popins';
+    text-align: justify;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    padding-left: 180px;
+}
+
+.row .button-prev-next {
+    margin-left: 4.8rem!important;
+}
+
+.row .button-prev-next .btn-light,
+.row .button-prev-next .btn-primary,
+.button-next .btn-primary,
+.grid-right-testimonials .button-prev-next .btn-light,
+.grid-right-testimonials .button-prev-next .btn-primary {
+    border-radius: 0rem;
+}
+
+.row .button-prev-next .btn-primary,
+.button-next .btn-primary {
+    background-color: #5863f8;
+}
+
+.form-row {
+    color: #5863f8;
+    background-color: white;
+    padding-left: 140px;
+}
+
+.check-date {
+    margin-left: 9.3rem!important;
+    margin-right: 2.7rem!important;
+    box-shadow: 2px 3px 2px 3px rgb(241, 239, 239);
+}
+
+.check-date .btn-info {
+    background-color: #5863f8;
+    margin-left: 50px;
+    margin-top: 25px;
+    border-radius: 0rem;
+}
+
+.grid-left-trust h1 {
+    /* font-family: 'Popins'; */
+    font-size: 3.3em;
+    font-weight: 700;
+}
+
+.grid-left-trust h6,
+.carousel-text h6,
+.grid-left-testimonials h6,
+.restaurant-text h6,
+.blog-text h6,
+.photos-text h6,
+.card-restaurant .card-subtitle,
+.card-blog .card-subtitle,
+.grid-restaurant-text h6,
+.contact-text h6 {
+    font-size: 0.9em;
+    font-weight: 750;
+    color: #5863f8;
+}
+
+.grid-left-trust p,
+.testimonials-text,
+.grid-restaurant-text p {
+    text-align: justify;
+    font-size: 15px;
+    font-weight: 600;
+    /* padding-left: 140px; */
+}
+
+.grid-left-trust .btn-info,
+.grid-restaurant-text .btn-info {
+    background-color: #5863f8;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 0rem;
+}
+
+.grid-left-trust .btn-info {
+    margin-left: 4rem!important;
+}
+
+.row .grid-right-images {
+    padding-top: 8%;
+    padding-left: 7.7%;
+}
+
+.grid-right-images img {
+    padding: 13% 2%;
+}
+
+.grid-right-images .clsimg2 {
+    padding-left: 15%;
+}
+
+.bg-img2 {
+    background-image: url(image5.png);
+    height: 650px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.carousel-text h1 {
+    font-size: 3em;
+    font-weight: 700;
+    color: white;
+    margin-bottom: -20px;
+}
+
+.first-card {
+    margin-left: 10.5%;
+}
+
+.carousel-item .card {
+    margin-right: 3.6%;
+    border-radius: 0rem!important;
+}
+
+.cartonase span {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.cartonase p {
+    color: #b1b1b1;
+    font-size: 14px;
+    text-align: justify;
+    padding: 10px 20px;
+    border-radius: 0rem;
+}
+
+rotunjit {
+    border-radius: 82px;
+    background-color: #5863f8;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 53px;
+}
+
+.cartonase svg {
+    width: 40%;
+    height: 70px;
+}
+
+.testimonials,
+.card-restaurant .card,
+.card-blog .card {
+    background-color: #f8f8f8;
+}
+
+.grid-left-testimonials h1,
+.restaurant-text h1,
+.blog-text h1,
+.photos-text h1,
+.contact-text h1 {
+    font-size: 2.8em;
+    font-weight: 700;
+}
+
+.testimonials-image img {
+    border-radius: 70px;
+    width: 16%;
+}
+
+
+/* .row .grid-right-testimonials .clsimg1 {
+    padding-left: 43%;
+} */
+
+.testimonials-text-it {
+    font-weight: 700;
+    color: #a09e9e;
+}
+
+.grid-right-testimonials .button-prev-next .btn-primary {
+    background-color: #5863f8;
+}
+
+.testimonials .button-prev-next {
+    margin-top: -47px;
+    margin-left: -0.9rem!important;
+}
+
+.card-restaurant .card {
+    margin-right: 3rem!important;
+    margin-left: 1.3rem!important;
+}
+
+.card-restaurant .card-title {
+    text-align: justify;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.card-restaurant .card-text,
+.card-blog .card-text {
+    color: #b1b1b1;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.card-restaurant .button-prev-next {
+    padding-left: 87%;
+    margin-top: -22px;
+}
+
+.card-blog .card {
+    margin-right: 3.4rem!important;
+    margin-left: 1.3rem!important;
+    max-width: 26%;
+}
+
+.card-blog .card-body {
+    text-align: center;
+}
+
+.card-blog .card-title {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.photos .d-none {
+    width: 1534px;
+}
+
+.photos .slide-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.slide-box img {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+li {
+    list-style: none;
+}
+
+footer {
+    background-color: #000000;
+}
+
+.logofooter {
+    font-size: 25px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.footer-col-logo p {
+    text-align: justify;
+    font-size: 14px;
+    color: #fff;
+}
+
+.footer-links .heading7,
+.footer-privacy .heading7 {
+    color: #fff;
+}
+
+.footer-links,
+.footer-col-links h6 {
+    list-style: none;
+    padding-left: 210px;
+}
+
+.footer-privacy,
+.footer-col-privacy h6 {
+    list-style: none;
+    padding-left: 50px;
+}
+
+.footer-links li,
+.footer-privacy li {
+    line-height: 29px;
+    font-size: 14px;
+}
+
+.footer-col-contact p {
+    color: #fff;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 15px;
+}
+
+.footer-col-contact p i {
+    width: 20px;
+    color: #999;
+}
+
+.heading7 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 22px;
+}
+
+.post p {
+    font-size: 12px;
+    color: #FFF;
+    line-height: 20px;
+}
+
+.footer-social {
+    margin-left: 40px;
+}
+
+.social-icon {
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+    background-color: blue;
+    color: #fff;
+    text-align: center;
+    margin-right: 10px;
+    padding-top: 7px;
+    border-radius: 50%;
+}
+
+.facebook {
+    background-color: #3b5998;
+}
+
+.twitter {
+    background-color: #1da1f2;
+}
+
+.google {
+    background-color: #f63e28;
+}
+
+.copyright p {
+    font-size: 12px;
+    color: #FFF;
+    margin-left: 163px;
+}
+
+.copyright .link {
+    margin-left: 3.3rem!important;
+}
+
+
+/* Stilizare pentru IndexRooms.html */
+
+.row .bg-img3 {
+    background-image: url(image16.png);
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.text-hotel h2 {
+    color: white;
+    font-size: 3em;
+    font-weight: 700;
+    padding-left: 170px;
+}
+
+.text-hotel h5 {
+    text-align: justify;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 190px;
+}
+
+.row .button-next {
+    margin-left: 1.8rem!important;
+}
+
+.check-date-rooms {
+    background-color: #ebebeb;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.check-date-rooms .col-2 {
+    flex: 0 0 22.888887%;
+    max-width: 22.888887%;
+}
+
+.check-date-rooms .btn-info {
+    background-color: #5863f8;
+    font-size: 16px;
+    font-weight: 600;
+    padding-right: 60px;
+    padding-left: 60px;
+    margin-left: 20px;
+    margin-top: 25px;
+    border-radius: 0rem;
+}
+
+
+/* Stilizare IndexRestaurant.html */
+
+.row .grid-restaurant-images {
+    padding-left: 10%;
+}
+
+.grid-restaurant-images img {
+    padding: 1.3% 15%;
+}
+
+.grid-restaurant-text h1 {
+    font-size: 3em;
+    font-weight: 700;
+}
+
+
+/* Stilizare IndexContact.html */
+
+.harta {
+    width: 80%;
+    margin-left: none;
+    margin-right: none;
+}
+
+.textarea-contact .col-md-12 {
+    flex: 0 0 165.888887%;
+    max-width: 165.888887%;
+}
+
+.button-send .btn-info {
+    background-color: #5863f8;
+    font-size: 16px;
+    font-weight: 600;
+    /* border-radius: 0rem; */
+}
+
+.panel-contact {
+    margin-left: 8rem!important;
+}
+
+.icon-contact {
+    margin-left: 20%;
+}
+
+.heading3,
+.heading4 {
+    color: #353333;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.heading1 {
+    margin-right: 22rem!important;
+}
+
+.heading2 {
+    margin-right: 22rem!important;
+    margin-left: 0.4rem!important;
+}
+
+.heading3 {
+    margin-left: -3rem!important;
+    margin-right: 16rem!important;
+}
+
+.heading4 {
+    margin-left: -4rem!important;
+    margin-right: 13rem!important;
+}
+
+.head1 {
+    margin-left: -5rem!important;
+    margin-right: 16.5rem!important;
+}
+
+.social-icon-contact {
+    width: 50px;
+    height: 50px;
+    font-size: 15px;
+    background-color: #5863f8;
+    color: #fff;
+    text-align: center;
+    margin-right: 10px;
+    padding-top: 7px;
+    border-radius: 50%;
+}
+
+
+/* Cod CSS utilizat pentru optiunile de Javascript */
+
+#more {
+    display: none;
+}
+
+.part1 {
+    background-color: #80bfff;
+    color: #FFF;
+}
+
+.part1 h3,
+.part1 h4,
+.part2 h4 {
+    padding-left: 450px;
+    padding-right: 200px;
+}
+
+.calculatorWoman {
+    padding-left: 150px;
+    padding-right: 250px;
+}
+
+.part2 {
+    color: #FFF;
+}
+
+
+/* Gradient exemplu: https://codepen.io/P1N2O/pen/pyBNzX */
+
+.part1,
+.part2 {
+    background: linear-gradient(-65deg, #996600, #009933, #23a6d5, #99ffff);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+/* ======== General ========= */
+
+.part1 p,
+.part2 p {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.paddingTopBottom60px {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.paddingBottom40px {
+    padding-bottom: 40px;
+}
+
+
+/* =========== Calculate BMR style ============ */
+
+input {
+    background-color: #D5D5D5;
+    color: #000;
+}
+
+legend {
+    background-color: initial;
+}
+
+#map {
+    margin-top: 20px;
+    height: 500px;
+}
+
+
+/* html body {
+    background-color: #A9BCD0;
+} */
+
+#map {
+    border-radius: 2%;
+}
+
+@font-face {
+    font-family: custom;
+    src: url("https://raw.githubusercontent.com/Cmatttt/Google-maps-api-test/master/assets/fonts/SteelrDemo.ttf") format("truetype");
+}
+
+h1 {
+    font-family: custom, Arial;
+}
+
+@media only screen and (max-width: 500px) {
+    .hex-area li {
+        display: none;
+        visibility: hidden;
+    }
+}
+
+.hex-area {
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.hex-area li {
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 25px;
+    height: 25px;
+    background: #58A4B0;
+    animation: animate 20s linear infinite;
+    bottom: -150px;
+}
+
+.hex-area li:nth-child(2) {
+    left: 12%;
+    background: #D8DBE2;
+    width: 30px;
+    height: 30px;
+    animation-delay: 1.5s;
+    animation-duration: 10s;
+}
+
+.hex-area li:nth-child(3) {
+    left: 70%;
+    width: 100px;
+    height: 100px;
+    animation-delay: 5.5s;
+}
+
+.hex-area li:nth-child(4) {
+    left: 70%;
+    background: #D8DBE2;
+    width: 150px;
+    height: 150px;
+    animation-delay: 0s;
+    animation-duration: 15s;
+}
+
+.hex-area li:nth-child(5) {
+    left: 65%;
+    width: 40px;
+    height: 40px;
+    animation-delay: 0s;
+}
+
+.hex-area li:nth-child(6) {
+    left: 15%;
+    background: #D8DBE2;
+    width: 110px;
+    height: 110px;
+    animation-delay: 3.5s;
+}
+
+@keyframes animate {
+    0% {
+        -moz-transform: translate(0) rotate(0deg);
+        -o-transform: translate(0) rotate(0deg);
+        -ms-transform: translate(0) rotate(0deg);
+        -webkit-transform: translate(0) rotate(0deg);
+        transform: translate(0) rotate(0deg);
+        opacity: 1;
+    }
+    100% {
+        -moz-transform: translateY(-800px) rotate(360deg);
+        -o-transform: translateY(-800px) rotate(360deg);
+        -ms-transform: translateY(-800px) rotate(360deg);
+        -webkit-transform: translateY(-800px) rotate(360deg);
+        transform: translateY(-800px) rotate(360deg);
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes animate {
+    0% {
+        -moz-transform: translate(0) rotate(0deg);
+        -o-transform: translate(0) rotate(0deg);
+        -ms-transform: translate(0) rotate(0deg);
+        -webkit-transform: translate(0) rotate(0deg);
+        transform: translate(0) rotate(0deg);
+        opacity: 1;
+    }
+    100% {
+        -moz-transform: translateY(-800px) rotate(360deg);
+        -o-transform: translateY(-800px) rotate(360deg);
+        -ms-transform: translateY(-800px) rotate(360deg);
+        -webkit-transform: translateY(-800px) rotate(360deg);
+        transform: translateY(-800px) rotate(360deg);
+        opacity: 0;
+    }
+}
+
+
+/* Image Animation Scroll Index.html -> Sectiune Testimonials */
+
+#main-wrapper {
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    height: 100%;
+    margin-left: 6rem!important;
+}
+
+#list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 740px;
+    flex-wrap: wrap;
+    transform: rotateX(14deg) rotateY(0deg) rotateZ(0deg);
+    transform-style: preserve-3d;
+}
+
+.photo {
+    width: 100%;
+    position: relative;
+    margin-left: 12em;
+}
+
+.photo div {
+    transform-style: preserve-3d;
+    transition: all .6s linear;
+}
+
+.photo:hover div {
+    transform: translateZ(2em) rotateX(170deg);
+    transform-origin: center center;
+    z-index: 1;
+}
+
+.photo img {
+    width: 100%;
+    display: block;
+    position: relative;
+    z-index: 1;
+    backface-visibility: hidden;
+}
+
+.photo .card {
+    position: absolute;
+    top: 0;
+    background-color: #A9BCD0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 1.4em 2em;
+    color: #FFF;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    transform: rotateX(180deg);
+    flex-direction: column;
+    font-family: "Open Sans", Roboto, sans-serif;
+}
+
+.author {
+    font-size: 19px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+
+/* Image Animation Index.html -> Sectiune About Us */
+
+.grid-showcase {
+    list-style: none;
+    /* width: 100%; */
+}
+
+.grid-showcase li {
+    display: block;
+    float: left;
+    width: 50%;
+}
+
+
+/* .grid-right-images {
+    width: 60%;
+    overflow: hidden;
+} */
+
+.grid-right-images .clsimg1 {
+    opacity: 0.7;
+    width: 68%;
+    height: auto;
+    transform: scale(1.5);
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.grid-right-images .clsimg2 {
+    opacity: 0.7;
+    width: 143.5%;
+    height: auto;
+    transform: scale(1.5);
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.grid-right-images img:hover {
+    opacity: 1;
+    transform: scale(1.03);
+}
